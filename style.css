@@ -1,0 +1,177 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+  min-height: 100vh;
+}
+#intro-section {
+  background-color: #465c80;
+  color: azure;
+}
+.nav {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0%;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.attention-grabber {
+  display: flex;
+  margin: 50px 250px;
+  gap: 10px;
+}
+.attention-grabber h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.top-left {
+  display: block;
+  width: 50%;
+}
+
+.top-left > h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: -10px;
+}
+.top-left h3 {
+  font-size: 18px;
+}
+.top-left button {
+  font-size: 18px;
+  color: white;
+  background-color: #3882f6;
+  padding: 10px 30px;
+  border: 0px;
+  border-radius: 10px;
+}
+.top-right img {
+  border-radius: 5px;
+}
+
+#recipe {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-header {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  color: #465c80;
+}
+
+#recipe-cards {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  margin: 10px 0px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  gap: 15px;
+  font-size: 15px;
+}
+.card img {
+  height: 150px;
+  border: 2px solid darkblue;
+  border-radius: 15px;
+}
+.card p {
+  padding: 5px;
+}
+#testimonial-container {
+  background-color: lightgrey;
+}
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-style: italic;
+  color: rgb(106, 99, 99);
+  margin: 0px 330px;
+  /* I want to have rotating content in this position */
+}
+.testimonial-body {
+  margin-bottom: 0px;
+}
+#author {
+  display: flex;
+  align-self: flex-end;
+  font-size: 26px;
+  margin-top: 0px;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 950px;
+  height: 150px;
+  background-color: rgb(86, 141, 160);
+  border-radius: 15px;
+  margin: 100px 0px;
+}
+.footer-left h3 {
+  font-size: 26px;
+  color: azure;
+  margin-bottom: -5px;
+}
+.footer-left p {
+  color: azure;
+  font-size: 16px;
+  padding: 0;
+}
+.footer-content button {
+  color: white;
+  background-color: #568d9f;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 40px;
+  border: 3px solid white;
+  border-radius: 15px;
+}
+
+.the-bottom {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+background-color: #7a97c6;
+padding: 10px 10px 0px;
+color: azure ;
+}
+.acknowledgments{
+  padding: 5px 15px;
+  border: 3px solid #19343d;
+  border-bottom: 0px;
+  border-radius: 10px 10px 0px 0px ;
+  
+}
+a {
+  color: #19343d;  
+text-decoration: none;
+
+}
